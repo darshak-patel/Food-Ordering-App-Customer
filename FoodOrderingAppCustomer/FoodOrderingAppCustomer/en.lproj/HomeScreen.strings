@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1Jd-yG-AJ1"; */
+"1Jd-yG-AJ1.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "BITES"; ObjectID = "4G6-Ru-gTN"; */
+"4G6-Ru-gTN.title" = "BITES";
+
+/* Class = "UILabel"; text = "Recommendations For You"; ObjectID = "AUL-bI-Lts"; */
+"AUL-bI-Lts.text" = "Recommendations For You";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "G86-jQ-RXC"; */
+"G86-jQ-RXC.text" = "Label";
+
+/* Class = "UILabel"; text = "BITES"; ObjectID = "MPg-Uh-HHD"; */
+"MPg-Uh-HHD.text" = "BITES";
+
+/* Class = "UITextField"; placeholder = "Restaurant & Dishes"; ObjectID = "Qnh-wQ-c2M"; */
+"Qnh-wQ-c2M.placeholder" = "Restaurant & Dishes";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VyQ-oT-tBA"; */
+"VyQ-oT-tBA.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YO0-jt-Ej4"; */
+"YO0-jt-Ej4.text" = "Label";
+
+/* Class = "UILabel"; text = "Wallet"; ObjectID = "YnI-QZ-xd7"; */
+"YnI-QZ-xd7.text" = "Wallet";
+
+/* Class = "UILabel"; text = "My Profile"; ObjectID = "ZjQ-Kq-VpR"; */
+"ZjQ-Kq-VpR.text" = "My Profile";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "d8b-lG-D3Z"; */
+"d8b-lG-D3Z.text" = "Label";
+
+/* Class = "UILabel"; text = "My Orders"; ObjectID = "ilx-Sq-5Lk"; */
+"ilx-Sq-5Lk.text" = "My Orders";
+
+/* Class = "UILabel"; text = "Live Tracking"; ObjectID = "lCg-56-MQY"; */
+"lCg-56-MQY.text" = "Live Tracking";
+
+/* Class = "UILabel"; text = "Support"; ObjectID = "uHX-M9-Ogf"; */
+"uHX-M9-Ogf.text" = "Support";
+
+/* Class = "UILabel"; text = "Cuisines"; ObjectID = "wQK-MD-9lM"; */
+"wQK-MD-9lM.text" = "Cuisines";
+
+/* Class = "UILabel"; text = "Nearby Restaurants:"; ObjectID = "ywT-hq-Zkf"; */
+"ywT-hq-Zkf.text" = "Nearby Restaurants:";

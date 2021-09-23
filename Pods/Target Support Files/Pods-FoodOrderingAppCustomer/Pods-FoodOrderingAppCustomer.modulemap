@@ -1,0 +1,6 @@
+framework module Pods_FoodOrderingAppCustomer {
+  umbrella header "Pods-FoodOrderingAppCustomer-umbrella.h"
+
+  export *
+  module * { export * }
+}

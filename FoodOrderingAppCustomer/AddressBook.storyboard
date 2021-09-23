@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pc5-UH-9f4">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Addresbook View Controller-->
+        <scene sceneID="HRR-IU-Vge">
+            <objects>
+                <viewController id="TAW-wp-3DW" customClass="AddresbookViewController" customModule="FoodOrderingAppCustomer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uLi-os-mCa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Your Address:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vb5-q5-n0h">
+                                <rect key="frame" x="10" y="77" width="349" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="349" id="cW2-X5-1zO"/>
+                                    <constraint firstAttribute="height" constant="26" id="nZr-Id-cjd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kc8-m4-E3s">
+                                <rect key="frame" x="10" y="111" width="349" height="180"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="349" id="bL8-eA-J15"/>
+                                    <constraint firstAttribute="height" constant="180" id="cOT-Pi-aT2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOP-tf-fEu">
+                                <rect key="frame" x="13" y="319" width="349" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Hm6-xC-N1b"/>
+                                    <constraint firstAttribute="width" constant="349" id="UxD-f7-chp"/>
+                                </constraints>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="SubmitBtnact:" destination="TAW-wp-3DW" eventType="touchUpInside" id="nze-6U-Pql"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vOP-tf-fEu" firstAttribute="leading" secondItem="gOq-tg-MKa" secondAttribute="leading" constant="13" id="4yR-OF-QGn"/>
+                            <constraint firstItem="vOP-tf-fEu" firstAttribute="top" secondItem="Kc8-m4-E3s" secondAttribute="bottom" constant="28" id="G2D-8A-ljw"/>
+                            <constraint firstItem="gOq-tg-MKa" firstAttribute="trailing" secondItem="Vb5-q5-n0h" secondAttribute="trailing" constant="16" id="GAN-Mn-qgL"/>
+                            <constraint firstItem="Vb5-q5-n0h" firstAttribute="top" secondItem="gOq-tg-MKa" secondAttribute="top" constant="13" id="Mcv-9z-XFC"/>
+                            <constraint firstItem="Vb5-q5-n0h" firstAttribute="leading" secondItem="gOq-tg-MKa" secondAttribute="leading" constant="10" id="Wtg-bW-OHx"/>
+                            <constraint firstItem="Kc8-m4-E3s" firstAttribute="top" secondItem="Vb5-q5-n0h" secondAttribute="bottom" constant="8" id="bm7-Vq-8uk"/>
+                            <constraint firstItem="gOq-tg-MKa" firstAttribute="trailing" secondItem="Kc8-m4-E3s" secondAttribute="trailing" constant="16" id="bp2-zr-m3i"/>
+                            <constraint firstItem="gOq-tg-MKa" firstAttribute="trailing" secondItem="vOP-tf-fEu" secondAttribute="trailing" constant="13" id="oNe-fh-u46"/>
+                            <constraint firstItem="Kc8-m4-E3s" firstAttribute="leading" secondItem="gOq-tg-MKa" secondAttribute="leading" constant="10" id="rfX-dz-GIS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gOq-tg-MKa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UFp-Rx-jNQ">
+                        <barButtonItem key="leftBarButtonItem" id="KKP-EQ-b5l">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TzU-mz-0Pl">
+                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="BackBtnAct:" destination="TAW-wp-3DW" eventType="touchUpInside" id="f1I-l7-l6s"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="AddressTxtView" destination="Kc8-m4-E3s" id="sEx-Ap-Pr9"/>
+                        <outlet property="SubmitBtn" destination="vOP-tf-fEu" id="EWB-A4-acN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Ng-dw-n5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1132" y="76.911544227886068"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Yyg-7p-4Ij">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Pc5-UH-9f4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hra-i2-dB7">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="25"/>
+                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="50"/>
+                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TAW-wp-3DW" kind="relationship" relationship="rootViewController" id="34q-a9-ipn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qAf-VN-HzZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="192.80000000000001" y="76.911544227886068"/>
+        </scene>
+    </scenes>
+</document>
